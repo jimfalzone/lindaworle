@@ -16,12 +16,12 @@ html {
 }
 
 ::-moz-selection {
-	background: #1abc9c;
+	background: #D4EC8E;
 	color: white
 }
 
 ::selection {
-	background: #1abc9c;
+	background: #D4EC8E;
 	color: white
 }
 
@@ -33,7 +33,7 @@ html {
 .abcen1 {
 	position: absolute;
 	top: 35%;
-	background-color: #ffffff80;
+	background-color: #ffffff99;
 }
 
 .content-section-c {
@@ -162,8 +162,8 @@ html {
 
 /* Button */
 .mybutton_standard {
-	border: 1px solid #BC204B;
-	color: #BC204B;
+	border: 1px solid #F49420;
+	color: #F49420;
 	margin-bottom: 25px;
 }
 
@@ -198,11 +198,11 @@ html {
 	font-size: 30px;
 	text-decoration: none;
 	list-style-type: none;
-	color: #1abc9c;
+	color: #D4EC8E;
 }
 
 .social>a:hover {
-	color: #1abc9c;
+	color: #D4EC8E;
 }
 
 .box-icon {
@@ -221,12 +221,12 @@ html {
 }
 
 .box-icon:hover {
-	background-color: #1abc9c;
+	background-color: #D4EC8E;
 	color: #fff;
 }
 
 .owl-theme .owl-controls .owl-page span {
-	background: #1abc9c !important;
+	background: #D4EC8E !important;
 }
 
 /* Nav */
@@ -280,7 +280,7 @@ html {
 	padding-top: 50px;
 	/* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
-	color: #EF4B81;
+	color: #6F4199;
 	background: url(../img/intro/gardenersHero1.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
@@ -547,7 +547,7 @@ html {
 
 .content-style-form-4 form button:focus,
 .content-style-form-4 form button:hover {
-	background: #1abc9c;
+	background: #D4EC8E;
 }
 
 .js .content-style-form-4 p {
@@ -929,7 +929,7 @@ html {
 
 .morph-button-inflow-1 .morph-content .morph-clone {
 	color: #FFFFFF;
-	background: #1abc9c;
+	background: #D4EC8E;
 }
 
 .morph-button-inflow-2 {
@@ -1110,7 +1110,7 @@ html {
 		height: 100%;
 		padding-top: 50px;
 		padding-bottom: 50px;
-		color: #EF4B81;
+		color: #6F4199;
 		background-image: none;
 		background-size: cover;
 		text-align: center;
