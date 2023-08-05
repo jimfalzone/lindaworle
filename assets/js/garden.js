@@ -1,3 +1,43 @@
+
+
+
+$(document).ready(function () {
+    // Set the initial description visibility
+    $(".description").hide();
+    $("#custom-solutions").show(); // Show the first description by default
+
+    $("#accordian").on("click", "li", function (e) {
+        e.preventDefault();
+        $('#accordian ul li').removeClass("active");
+        $(this).addClass('active');
+
+        var target = $(this).find('a').data('target');
+        $(".description").hide();
+        $("#" + target).show();
+    });
+
+    // --------------add active class-on another-page move----------
+    var path = window.location.pathname.split("/").pop();
+    if (path === '') {
+        path = 'index.html';
+    }
+
+    var target = $('#accordian ul li a[data-target="' + path + '"]');
+    target.parent().addClass('active');
+
+    // Highlight the selected item in the menu
+    $("#accordian ul li a").click(function () {
+        $("#accordian ul li a").removeClass("selected first-item-selected");
+        $(this).addClass("selected");
+    });
+});
+
+
+
+
+
+
+
 // vars
 'use strict'
 var testim = document.getElementById("testim"),

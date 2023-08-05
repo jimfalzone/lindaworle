@@ -4511,6 +4511,16 @@ footer p {
   border-top: none;
   padding-top: 1px;
 }
+
+.footer-section {
+  background: #141414;
+  color: #e5e5e5;
+  padding: 20px;
+  fon
+
+
+
+
 .last-col {
   overflow: hidden;
 }
