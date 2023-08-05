@@ -33,7 +33,7 @@ html {
 .abcen1 {
 	position: absolute;
 	top: 35%;
-	background-color: #ffffff99;
+	background-color: #ffffff70;
 }
 
 .content-section-c {
@@ -162,8 +162,8 @@ html {
 
 /* Button */
 .mybutton_standard {
-	border: 1px solid #F49420;
-	color: #F49420;
+	border: 1px solid #90161D;
+	color: #90161D;
 	margin-bottom: 25px;
 }
 
