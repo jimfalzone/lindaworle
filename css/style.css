@@ -2327,7 +2327,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 
 .navbar-toggle {
   border: none;
-  color: #34495e;
+  color: #90161D;
   margin: 0 0 0 21px;
   padding: 0 21px;
   height: 53px;
@@ -2335,7 +2335,7 @@ fieldset[disabled] .input-group-btn .btn-default.active {
 }
 
 .navbar-toggle:before {
-  color: #34495e;
+  color: #90161D;
   content: "\e00c";
   font-family: "Flat-UI-Icons";
   font-size: 22px;
@@ -2582,7 +2582,7 @@ select[multiple].navbar-form .btn {
 .navbar-text {
   font-size: 16px;
   line-height: 1.438;
-  color: #34495e;
+  color: #90161D;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 15px;
@@ -2666,7 +2666,7 @@ select[multiple].navbar-form .btn {
 }
 
 .navbar-default .navbar-brand {
-  color: #34495e;
+  color: #90161D;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -2676,7 +2676,7 @@ select[multiple].navbar-form .btn {
 }
 
 .navbar-default .navbar-toggle:before {
-  color: #34495e;
+  color: #90161D;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -2696,7 +2696,7 @@ select[multiple].navbar-form .btn {
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #34495e;
+  color: #90161D;
 }
 
 .navbar-default .navbar-nav>li>a:hover,
@@ -2720,8 +2720,8 @@ select[multiple].navbar-form .btn {
 }
 
 .navbar-default .navbar-nav>.dropdown>a .caret {
-  border-top-color: #34495e;
-  border-bottom-color: #34495e;
+  border-top-color: #90161D;
+  border-bottom-color: #90161D;
 }
 
 .navbar-default .navbar-nav>.active>a .caret {
@@ -2751,7 +2751,7 @@ select[multiple].navbar-form .btn {
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-    color: #34495e;
+    color: #90161D;
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
@@ -2817,11 +2817,11 @@ select[multiple].navbar-form .btn {
 }
 
 .navbar-default .navbar-text {
-  color: #34495e;
+  color: #90161D;
 }
 
 .navbar-default .navbar-text a {
-  color: #34495e;
+  color: #90161D;
 }
 
 .navbar-default .navbar-text a:hover,
@@ -2830,7 +2830,7 @@ select[multiple].navbar-form .btn {
 }
 
 .navbar-inverse {
-  background-color: #34495e;
+  background-color: #90161D;
 }
 
 .navbar-inverse .navbar-brand {
@@ -2913,12 +2913,12 @@ select[multiple].navbar-form .btn {
 }
 
 .navbar-inverse .navbar-nav>.open>.dropdown-arrow {
-  border-top-color: #34495e;
-  border-bottom-color: #34495e;
+  border-top-color: #90161D;
+  border-bottom-color: #90161D;
 }
 
 .navbar-inverse .navbar-nav>.open>.dropdown-menu {
-  background-color: #34495e;
+  background-color: #90161D;
   padding: 3px 4px;
 }
 
@@ -5727,6 +5727,6 @@ footer p {
 
   }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav li>a {
   color: red !important;
 }
