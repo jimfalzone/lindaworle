@@ -63,6 +63,14 @@ http://www.andreagalanti.it
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Waverly";
+  src: url('../assets/fonts/Fontspring-DEMO-waverlycf-medium.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
@@ -2215,9 +2223,17 @@ fieldset[disabled] .input-group-btn .btn-default.active {
   border-radius: 6px;
 }
 
+
+.navbar-header2 {
+  max-height: 50px;
+}
+
+
+
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+    max-width: 250px;
   }
 }
 

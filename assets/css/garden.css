@@ -9,6 +9,13 @@ Css Indexing
 Base CSS
 ==============*/
 
+@font-face {
+    font-family: "Waverly";
+    src: url('../fonts/Fontspring-DEMO-waverlycf-medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 
@@ -32,7 +39,7 @@ a:focus {
     outline: 0 solid
 }
 
-img {
+.showcase-thumb > img {
     max-width: 100%;
     height: auto;
 }
@@ -100,7 +107,7 @@ a:hover {
 }
 
 .header-bg {
-    background: url(../img/header-bg.jpg);
+    background: url(../img/garden-maker/header-bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -261,6 +268,7 @@ a.logo img {
 
 .section-title .title {
     font-size: 50px;
+    font-family: Waverly;
     line-height: 60px;
     font-weight: 800;
 }
@@ -1065,12 +1073,16 @@ html {
     padding-top: 20px;
 }
 
+.description > img {
+    height: 500px
+}
+
 
 
 
 #accordian {
     /* background: #6F4199; */
-    background-image: url("../img/palms.jpg");
+    background-image: url("../img/garden-maker/why-us/palms.jpg");
     width: 350px;
     padding: 10px;
     float: left;
@@ -1080,9 +1092,9 @@ html {
     padding-right: 20px;
 }
 
-.main-navbar {
+/* .main-navbar {
     position: relative;
-}
+} */
 
 #accordian li {
     list-style-type: none;
