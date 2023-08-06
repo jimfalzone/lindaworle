@@ -249,6 +249,12 @@ a.logo img {
 /*-----------------------
     Section Title
 ----------------------*/
+
+.content > h4 {
+    color: #59B948;
+}
+
+
 .section-title {
     margin-bottom: 80px;
 }
@@ -406,9 +412,9 @@ canvas {
     margin-bottom: 9px;
 }
 
-.single-feature-list .icon img {
+/* .single-feature-list .icon img {
     filter: grayscale(100%);
-}
+} */
 
 .copyright-text {
     font-size: 18px;
