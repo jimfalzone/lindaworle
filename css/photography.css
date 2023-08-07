@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Waverly";
+    src: url('../fonts/Fontspring-DEMO-waverlycf-medium.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.background-main{
+    height: 100vh;
+    background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)),url(../assets/img/photography/green.png);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 89%, 51% 100%, 0 89%);
+    clip-path: polygon(0 0, 100% 0, 100% 89%, 51% 100%, 0 89%);
+}
+
+.background-main, .services-class{
+    max-width: 100%;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    color: red;
+}
+
+.background-main h1{
+    font-family: Waverly;
+    font-size: 5.5rem;
+    color: white;
+}
+
+.background-main .main {
+    display: table;
+    width: 100%;
+    height: 82vh;
+    text-align: center;
+    /*
+    display: flex;
+    width: 50%;
+    height: 200px;
+    margin: auto;
+    */
+}
+
+.background-main .main .main-title,.background-main .main p {
+    display: table-cell;
+    vertical-align: middle;
+    /*margin: auto;  Important
+    text-align: center;  */
+}
+
+.main-link{
+    font-family: Waverly;
+    font-size: 44px;
+    color: white;
+}
+.main-link:hover{
+    color: green;
+}
+
+.about-us,.services-class{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.line-shape{
+    width: 10%;
+    height: 2px;
+    margin-left: calc(49% - 40px);
+    background-color: purple;
+    margin-top: 17px;
+    margin-bottom: 25px;
+}
+
+.services-class{
+    max-width: 100%;
+    height: 78vh;
+    background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)),url(../assets/img/photography/bg2.png);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    -webkit-clip-path: polygon(0 7%, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 7%, 100% 0, 100% 96%, 0 100%);
+}
+
+.services-class .section-heading, .portfolio-title,.contact-us .section-heading{
+    font-size: 34px;
+    margin-top: 2.5em;
+    font-family: Waverly;
+}
+
+.services-class .container .service-box .text-muted{
+    color: yellow !important;
+}
+
+.contact-us{
+    max-width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(20,20,20, .5),rgba(20,20,20, .5)),url(../img/bg-3.jpeg);
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    color: orange;
+    -webkit-clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 94%);
+    clip-path: polygon(0 0, 100% 7%, 100% 100%, 0 94%);
+}
+
+.typewrite {
+    color: #F49420;
+}
