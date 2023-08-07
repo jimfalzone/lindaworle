@@ -107,7 +107,7 @@ a:hover {
 }
 
 .header-bg {
-    background: url(../img/garden-maker/header-bg.jpg);
+    background: url(../assets/img/garden-maker/header-bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -1082,7 +1082,7 @@ html {
 
 #accordian {
     /* background: #6F4199; */
-    background-image: url("../img/garden-maker/why-us/palms.jpg");
+    background-image: url("../assets/img/garden-maker/why-us/palms.jpg");
     width: 350px;
     padding: 10px;
     float: left;
