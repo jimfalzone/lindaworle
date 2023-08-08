@@ -1,0 +1,41 @@
+.navbar-default {
+    position: relative;
+    min-height: 60px;
+    width: 100%;
+    z-index: 999;
+
+}
+
+.custom-navbar {
+    background-color: #fbfbfb;
+    max-height: 80px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #90161D;
+    margin-top: 11px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ECEBEB;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #ECEBEB;
+}
+
+.navbar-brand {
+    font-family: Waverly !important;
+    letter-spacing: 3px;
+    font-weight: 400 !important;
+
+    margin-top: -60px;
+}
+
+.navbar-header {
+    max-width: 250px;
+}
