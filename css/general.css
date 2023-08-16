@@ -1299,3 +1299,16 @@ p.copyright {
 	margin-bottom: 0px;
 	color: white;
 }
+
+
+.presenter-image {
+	margin-top: 6em;
+}
+
+.photography-image {
+	margin-top: 5em;
+}
+
+.author-image {
+	margin-top: 2em;
+}
