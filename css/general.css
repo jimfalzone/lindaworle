@@ -1045,21 +1045,19 @@ html {
 }
 
 #logo {
-	margin-top: 0px !important;
-	margin-left: 200px;
-	width: 160px !important;
-	height: 150px !important;
+	margin-top: 5px !important;
+	margin-left: 130px;
+	height: 123px !important;
 	padding: 30px !important;
 }
 
 .logo-linda {
+
 	color: #90161d;
-	font-size: 3em;
+	font-size: 2em;
 	font-family: Waverly;
 
 }
-
-
 
 
 
