@@ -600,8 +600,8 @@ html {
 
 .testim .cont div .img img {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 600px;
     margin: auto;
     border-radius: 50%;
 }
@@ -1312,3 +1312,8 @@ html {
 .testim {
     margin-top: -5em;
 }
+
+/* .letter {
+    width: 1em;
+    height: 1em;
+} */
